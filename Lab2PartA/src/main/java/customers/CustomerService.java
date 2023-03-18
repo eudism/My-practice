@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 public class CustomerService implements ICustomerService {
 	@Autowired
 	ICustomerDAO customerDAO;
+
 	@Autowired
 	IEmailSender emailSender;
 

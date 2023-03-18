@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class EmailSender implements IEmailSender {
 	@Value("${outgoingMailServer}")
+
 	String myServer;
 	@Autowired
 	private ILogger logger;
